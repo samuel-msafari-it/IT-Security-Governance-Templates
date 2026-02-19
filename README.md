@@ -1,5 +1,5 @@
 - Strategic Vision: Security as an Enabler 
 
-- Technical Standards: Device Security Policy 
+- Technical Standard: Device Security Policy 
 
-- Execution Blueprints: The First 90 Days Roadmap 
+- Execution Blueprint: The First 90 Days Roadmap 
