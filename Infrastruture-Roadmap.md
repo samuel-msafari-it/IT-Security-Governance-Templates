@@ -13,7 +13,7 @@ Transition from Fragile Startup IT to Resilient Fintech Infrastructure within on
 - Hardware-Key Rollout: Lead the transition to hardware-based MFA for all employees handling sensitive financial or engineering tools.
 - MDM Fleet Standardization: Resolve any gaps in global device enrollment to ensure 100% visibility and security compliance.
 - JML (Joiner-Mover-Leaver) Automation: Implement Built scalable identity workflows via JumpCloud to ensure zero-touch onboarding for new hires.
-- 
+
 **Phase 3: Governance & Audit-Readiness (Days 61–90)**
 - Compliance Automation: Configure Microsoft Purview for automated eDiscovery and compliance logging to prepare the company for SOC 2 or ISO audits.
 - Security Best Practice Documentation: Finalize the internal "Security as an Enabler" library to empower employees to fix what's broken without waiting for IT intervention.
