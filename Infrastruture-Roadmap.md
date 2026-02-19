@@ -1,4 +1,5 @@
 **# Infrastructure-Roadmap**
+
 **First 90 Days: Baseline IT & Security Foundation**
 Transition from Fragile Startup IT to Resilient Fintech Infrastructure within one business quarter.
 
