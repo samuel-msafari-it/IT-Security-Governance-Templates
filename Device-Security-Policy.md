@@ -1,13 +1,11 @@
-# Corporate Device & Data Security Policy
+**Device Security & Global Fleet Compliance Policy**
 
-## 1. Hardware Standards
-* All laptops must be enrolled in the corporate **MDM (Microsoft Intune/JumpCloud)** before user delivery.
-* **Hardware-Based Authentication:** All employees are required to use YubiKeys for primary IdP access.
+**Core Objective:** To ensure 100% of the global device fleet is hardened, encrypted, and audit-ready without creating operational bottlenecks.
 
-## 2. Access Control
-* **Principle of Least Privilege (PoLP):** Access is granted based on Role-Based Access Control (RBAC).
-* **MFA:** Multi-Factor Authentication is mandatory for all SaaS applications.
+- Zero-Trust Device Enrollment: No hardware can access any SaaS Operations (Slack, GitHub, G-Suite) unless it is fully enrolled in the MDM (JumpCloud) environment.
 
-## 3. Offboarding Protocol
-* Immediate revocation of **Identity Provider (IdP)** credentials upon termination.
-* Remote wipe triggered for all MDM-enrolled devices within 60 minutes of exit.
+- Hardware-Key Enforced Identity: All device logins must be paired with Hardware-Based Authentication (YubiKeys) to protect against session hijacking and identity-based malicious actors.
+
+- Automated Hardening Standard: Every endpoint must automatically enforce FileVault/BitLocker encryption, a 5-minute screen-lock timeout, and OS patch compliance (N-1 versioning).
+
+- Remote-Wipe Readiness: In the event of device loss or immediate offboarding, a kill-switch protocol must be ready to execute via MDM within 60 minutes to protect enterprise infrastructure.
