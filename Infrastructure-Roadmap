@@ -1,0 +1,5 @@
+# Infrastructure-Roadmap
+First 90 Days: Baseline IT & Security Foundation
+1. **Phase 1 (Days 1-30):** Discovery & Audit. Audit 1Password vaults, JumpCloud permissions, and MDM enrollment status.
+2. **Phase 2 (Days 31-60):** Hardening. Enforcement of hardware-based MFA (YubiKeys) and cleanup of "Shadow IT."
+3. **Phase 3 (Days 61-90):** Automation. Implementing automated "Joiner-Mover-Leaver" (JML) workflows to ensure zero-touch provisioning.
