@@ -5,3 +5,5 @@
 - Execution Blueprint: The First 90 Days Roadmap
 
 - SOP - Identity Incident Response
+
+- Conditional Access Policy
