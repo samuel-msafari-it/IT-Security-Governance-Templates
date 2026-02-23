@@ -1,0 +1,10 @@
+## Zero Trust Logic: Startup Baseline Architecture
+
+Our security posture relies on a 'Never Trust, Always Verify' gatekeeper. 
+
+**Policy Logic:**
+1. **Condition:** User attempting to access Corporate Cloud Resourse such as 'Financial Apps' or 'GitHub'.
+2. **Gate 1:** Is the device Managed and Compliant (Intune)? -> If No, Block.
+3. **Gate 2:** Is the IP from an approved/known 'Geolocation' (e.g., Kenya/US/UK)? -> If No, Block.
+4. **Gate 3:** Is the Sign-in Risk 'Low'? -> If Medium/High, Require **Hardware-Key MFA**.
+5. **Action:** Grant limited-duration session.
